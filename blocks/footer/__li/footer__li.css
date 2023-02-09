@@ -1,0 +1,13 @@
+.footer__li {
+    margin: 0;
+    margin-right: 18px;
+
+    padding: 0;
+}
+  
+  @media screen and (max-width: 320px) {
+    .footer__li {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+  }

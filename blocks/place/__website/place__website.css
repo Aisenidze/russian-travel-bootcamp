@@ -1,0 +1,10 @@
+.place__website {
+    min-height: 76px;
+    max-height: 152px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+
+    grid-area: place__website;
+}
