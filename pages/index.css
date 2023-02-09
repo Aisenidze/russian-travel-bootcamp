@@ -36,3 +36,45 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__li/footer__li.css);
+
+body {
+    width: 1280px;
+
+    margin: 0 auto;
+
+    font-family: 'Inter', sans-serif, 'Helvetica';
+
+    background-color: #2A2C2F;
+
+    color: #FFFFFF;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+    -webkit-text-size-adjust: 100%;
+
+    -ms-text-size-adjust: 100%;
+
+    -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+}
