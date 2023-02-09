@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
 width: 456px;
 
 font-weight: 400;
@@ -12,12 +12,12 @@ text-decoration-line: underline;
 color: #FFFFFF;
 }
 
-.place__website__link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 320px)  {
-    .place__website__link {
+    .place__link {
       margin-left: 16px;
     }
   }

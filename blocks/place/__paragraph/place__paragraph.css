@@ -1,4 +1,4 @@
-.place__paragraphs__paragraph {
+.place__paragraph {
   margin: 0;
   width: 484px;
   
@@ -9,18 +9,18 @@
   color: #FFFFFF;
 }
 
-.place__paragraphs .place__paragraphs__paragraph:not(:first-child) {
+.place__paragraph .place__paragraph:not(:first-child) {
   margin-top: 20px;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraphs__paragraph {
+  .place__paragraph {
       width: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs__paragraph {
+  .place__paragraph {
       width: 352px;
 
       font-size: 18px;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__paragraphs__paragraph {
+  .place__paragraph {
       width: 288px;
 
       font-size: 16px;
