@@ -1,5 +1,6 @@
-@import url(./fonts/fonts.css);
+@import url(../fonts/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language/header__language.css);
@@ -16,7 +17,8 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span/intro__span.css);
-@import url(../blocks/photo-grid/__table/photo-grid__table.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -25,56 +27,12 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__paragraphs/place__paragraphs.css);
-@import url(../blocks/place/__paragraphs/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css); 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__row-links/footer__row-links.css);
+@import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__li/footer__li.css);
-
-body {
-    width: 1280px;
-
-    margin: 0 auto;
-
-    font-family: 'Inter', sans-serif, 'Helvetica';
-
-    background-color: #2A2C2F;
-
-    color: #FFFFFF;
-
-    text-rendering: optimizeLegibility;
-
-    -webkit-font-smoothing: antialiased;
-
-    -moz-osx-font-smoothing: grayscale;
-
-    -webkit-text-size-adjust: 100%;
-
-    -ms-text-size-adjust: 100%;
-
-    -moz-text-size-adjust: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-    body {
-        width: 1240px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        width: 768px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    body {
-        width: 320px;
-    }
-}

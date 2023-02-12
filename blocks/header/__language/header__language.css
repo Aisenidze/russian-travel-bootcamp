@@ -1,7 +1,8 @@
 .header__language {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #FFFF;
-    text-decoration: none;
+    align-self: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
 }

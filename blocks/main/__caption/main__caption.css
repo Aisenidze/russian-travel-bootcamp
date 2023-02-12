@@ -1,16 +1,20 @@
 .main__caption {
-min-width: 158px;
-height: 14px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 8px 0 0;
+}
 
-margin: 0 auto;
-margin-top: 8px;
+@media screen and (max-width: 1023px) {
+  .main__caption {
+    margin: 8px 0 0 24px;
+  }
+}
 
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-
-letter-spacing: 1.5px;
-text-transform: uppercase;
-
-color: #FFFFFF;
+@media screen and (max-width: 424px) {
+  .main__caption {
+    margin: 8px 0 0 16px;
+  }
 }
