@@ -19,3 +19,6 @@
 
 **Будущие обновления**
 Добавятся анимации объектов фото и текста.
+
+**Github Pages**
+https://aisenidze.github.io/yet-another-project/
